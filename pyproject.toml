@@ -7,6 +7,9 @@ name = "telemetry-app"
 version = "0.1.0"
 description = "Telemetry Visualization App"
 requires-python = ">=3.8"
+packages = [
+    { include = "telemetry" },
+]
 dependencies = [
     "streamlit",
     "pandas",
